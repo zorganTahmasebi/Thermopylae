@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1649578147 source:c:\users\kaisen\desktop\myprojects\cprojecttest\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<dirent.h>
+	<stdbool.h>
+	"zip.h"
+
+1649495521 c:\users\kaisen\desktop\myprojects\cprojecttest\zip.h
+	<stdint.h>
+	<string.h>
+	<sys/types.h>
+
+1649495521 source:c:\users\kaisen\desktop\myprojects\cprojecttest\zip.c
+	<errno.h>
+	<sys/stat.h>
+	<time.h>
+	<direct.h>
+	<unistd.h>
+	<sys/types.h>
+	<unistd.h>
+	"miniz.h"
+	"zip.h"
+	<io.h>
+
+1649495521 c:\users\kaisen\desktop\myprojects\cprojecttest\miniz.h
+	<stddef.h>
+	<time.h>
+	<assert.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<sys/stat.h>
+	<windows.h>
+	<sys/utime.h>
+	<windows.h>
+	<sys/utime.h>
+	<sys/utime.h>
+	<utime.h>
+	<utime.h>
+	<utime.h>
+
