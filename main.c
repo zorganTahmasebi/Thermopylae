@@ -120,7 +120,7 @@ bool checkPossibleFiles(const char* fileName)
        strcmp(fileName, "py") == 0 || strcmp(fileName, "txt") == 0 ||
        strcmp(fileName, "h") == 0 || strcmp(fileName, "hpp") == 0 ||
        strcmp(fileName, "css") == 0 || strcmp(fileName, "ini") == 0 ||
-       strcmp(fileName, "java") == 0)
+       strcmp(fileName, "java") == 0 || strcmp(fileName, "log") == 0)
     {
 
         return true;
@@ -426,8 +426,8 @@ int main(int argc, char* argv[])
             }
 
         }
-        else
-            readDirFiles(&info);
+       else
+          readDirFiles(&info);
 
 
         return EXIT_TRUE;
