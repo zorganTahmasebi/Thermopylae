@@ -216,13 +216,12 @@ void argsOperation(int argsSize, char* argsData[], DataArgs* info, bool* recursi
         }
     }
 }
-
 // read file line by line
 void readFile(const char* fileName, DataArgs* info)
 {
 
     FILE* file = fopen(fileName, "r");
-    char buffer[256];
+    char buffer[1024];
 
 
     if(file)
@@ -234,7 +233,7 @@ void readFile(const char* fileName, DataArgs* info)
             fseek(file, 0, SEEK_SET);
             int counter = 0;
 
-            while(fgets(buffer, 256, file) != NULL)
+            while(fgets(buffer, 1024, file) != NULL)
             {
 
                 KMPSearch(counter, fileName, info->words[index], buffer);
